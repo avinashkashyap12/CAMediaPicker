@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD45CD911E12814300BC4D64 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD45CD8F1E12814300BC4D64 /* ImageViewController.m */; };
+		FD45CD921E12814300BC4D64 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD45CD901E12814300BC4D64 /* ImageViewController.xib */; };
+		FD45CD9A1E12E36500BC4D64 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = FD45CD931E12E36500BC4D64 /* play_button.png */; };
+		FD45CD9B1E12E36500BC4D64 /* video_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD45CD941E12E36500BC4D64 /* video_icon@3x.png */; };
+		FD45CD9C1E12E36500BC4D64 /* video_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD45CD951E12E36500BC4D64 /* video_icon@2x.png */; };
+		FD45CD9D1E12E36500BC4D64 /* video_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD45CD961E12E36500BC4D64 /* video_icon.png */; };
+		FD45CD9E1E12E36500BC4D64 /* image_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD45CD971E12E36500BC4D64 /* image_icon@3x.png */; };
+		FD45CD9F1E12E36500BC4D64 /* image_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD45CD981E12E36500BC4D64 /* image_icon@2x.png */; };
+		FD45CDA01E12E36500BC4D64 /* image_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD45CD991E12E36500BC4D64 /* image_icon.png */; };
+		FD96A5A21E07D58A00F735D4 /* CAImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD96A5A01E07D58A00F735D4 /* CAImagePickerController.m */; };
+		FD96A5A31E07D58A00F735D4 /* CAImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD96A5A11E07D58A00F735D4 /* CAImagePickerController.xib */; };
+		FD96A5A71E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD96A5A41E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.xib */; };
+		FD96A5A81E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD96A5A51E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.m */; };
+		FD96A5AD1E08039B00F735D4 /* check_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD96A5AA1E08039B00F735D4 /* check_red@3x.png */; };
+		FD96A5AE1E08039B00F735D4 /* check_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD96A5AB1E08039B00F735D4 /* check_red@2x.png */; };
+		FD96A5AF1E08039B00F735D4 /* check_red.png in Resources */ = {isa = PBXBuildFile; fileRef = FD96A5AC1E08039B00F735D4 /* check_red.png */; };
+		FD96A5B31E0809F300F735D4 /* CAVideoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD96A5B11E0809F300F735D4 /* CAVideoPickerController.m */; };
+		FD96A5B41E0809F300F735D4 /* CAVideoPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD96A5B21E0809F300F735D4 /* CAVideoPickerController.xib */; };
+		FDEBE8DD1E092FCE000A2E43 /* CAActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBE8DC1E092FCE000A2E43 /* CAActivityIndicatorView.m */; };
+		FDEBE8E11E09457E000A2E43 /* CAAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBE8DF1E09457E000A2E43 /* CAAlbumTableViewCell.m */; };
+		FDEBE8E21E09457E000A2E43 /* CAAlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDEBE8E01E09457E000A2E43 /* CAAlbumTableViewCell.xib */; };
+		FDEBE8E51E0954BA000A2E43 /* UIImageView+Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEBE8E41E0954BA000A2E43 /* UIImageView+Asset.m */; };
+		FDF998751DECA3FA00A5F04E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF998741DECA3FA00A5F04E /* main.m */; };
+		FDF998781DECA3FA00A5F04E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF998771DECA3FA00A5F04E /* AppDelegate.m */; };
+		FDF9987B1DECA3FA00A5F04E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF9987A1DECA3FA00A5F04E /* ViewController.m */; };
+		FDF9987E1DECA3FA00A5F04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF9987C1DECA3FA00A5F04E /* Main.storyboard */; };
+		FDF998801DECA3FA00A5F04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF9987F1DECA3FA00A5F04E /* Assets.xcassets */; };
+		FDF998831DECA3FA00A5F04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF998811DECA3FA00A5F04E /* LaunchScreen.storyboard */; };
+		FDF9988E1DECA3FA00A5F04E /* CAMediaPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF9988D1DECA3FA00A5F04E /* CAMediaPickerTests.m */; };
+		FDF998991DECA3FA00A5F04E /* CAMediaPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF998981DECA3FA00A5F04E /* CAMediaPickerUITests.m */; };
+		FDF998B21DECA7FC00A5F04E /* CAAlbumPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF998B01DECA7FC00A5F04E /* CAAlbumPickerViewController.m */; };
+		FDF998B31DECA7FC00A5F04E /* CAAlbumPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF998B11DECA7FC00A5F04E /* CAAlbumPickerViewController.xib */; };
+		FDF998B61DECAEDB00A5F04E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF998B51DECAEDB00A5F04E /* Photos.framework */; };
+		FDFFB6D71E0829410008ECF3 /* CAMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFFB6D61E0829410008ECF3 /* CAMediaManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF9988A1DECA3FA00A5F04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF998681DECA3FA00A5F04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF9986F1DECA3FA00A5F04E;
+			remoteInfo = CAMediaPicker;
+		};
+		FDF998951DECA3FA00A5F04E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF998681DECA3FA00A5F04E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF9986F1DECA3FA00A5F04E;
+			remoteInfo = CAMediaPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD45CD8E1E12814300BC4D64 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		FD45CD8F1E12814300BC4D64 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		FD45CD901E12814300BC4D64 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		FD45CD931E12E36500BC4D64 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_button.png; path = MediaPicker/Resource/play_button.png; sourceTree = "<group>"; };
+		FD45CD941E12E36500BC4D64 /* video_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "video_icon@3x.png"; path = "MediaPicker/Resource/video_icon@3x.png"; sourceTree = "<group>"; };
+		FD45CD951E12E36500BC4D64 /* video_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "video_icon@2x.png"; path = "MediaPicker/Resource/video_icon@2x.png"; sourceTree = "<group>"; };
+		FD45CD961E12E36500BC4D64 /* video_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = video_icon.png; path = MediaPicker/Resource/video_icon.png; sourceTree = "<group>"; };
+		FD45CD971E12E36500BC4D64 /* image_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image_icon@3x.png"; path = "MediaPicker/Resource/image_icon@3x.png"; sourceTree = "<group>"; };
+		FD45CD981E12E36500BC4D64 /* image_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image_icon@2x.png"; path = "MediaPicker/Resource/image_icon@2x.png"; sourceTree = "<group>"; };
+		FD45CD991E12E36500BC4D64 /* image_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_icon.png; path = MediaPicker/Resource/image_icon.png; sourceTree = "<group>"; };
+		FD96A59E1E07CD6D00F735D4 /* MediaPickerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MediaPickerDelegate.h; path = MediaPicker/MediaPickerDelegate.h; sourceTree = "<group>"; };
+		FD96A59F1E07D58A00F735D4 /* CAImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAImagePickerController.h; path = MediaPicker/CAImagePickerController.h; sourceTree = "<group>"; };
+		FD96A5A01E07D58A00F735D4 /* CAImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAImagePickerController.m; path = MediaPicker/CAImagePickerController.m; sourceTree = "<group>"; };
+		FD96A5A11E07D58A00F735D4 /* CAImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CAImagePickerController.xib; path = MediaPicker/CAImagePickerController.xib; sourceTree = "<group>"; };
+		FD96A5A41E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ImageThumbnailCollectionViewCell.xib; path = MediaPicker/ImageThumbnailCollectionViewCell.xib; sourceTree = "<group>"; };
+		FD96A5A51E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageThumbnailCollectionViewCell.m; path = MediaPicker/ImageThumbnailCollectionViewCell.m; sourceTree = "<group>"; };
+		FD96A5A61E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageThumbnailCollectionViewCell.h; path = MediaPicker/ImageThumbnailCollectionViewCell.h; sourceTree = "<group>"; };
+		FD96A5AA1E08039B00F735D4 /* check_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check_red@3x.png"; path = "MediaPicker/Resource/check_red@3x.png"; sourceTree = "<group>"; };
+		FD96A5AB1E08039B00F735D4 /* check_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "check_red@2x.png"; path = "MediaPicker/Resource/check_red@2x.png"; sourceTree = "<group>"; };
+		FD96A5AC1E08039B00F735D4 /* check_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check_red.png; path = MediaPicker/Resource/check_red.png; sourceTree = "<group>"; };
+		FD96A5B01E0809F300F735D4 /* CAVideoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAVideoPickerController.h; path = MediaPicker/CAVideoPickerController.h; sourceTree = "<group>"; };
+		FD96A5B11E0809F300F735D4 /* CAVideoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAVideoPickerController.m; path = MediaPicker/CAVideoPickerController.m; sourceTree = "<group>"; };
+		FD96A5B21E0809F300F735D4 /* CAVideoPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CAVideoPickerController.xib; path = MediaPicker/CAVideoPickerController.xib; sourceTree = "<group>"; };
+		FDEBE8DB1E092FCE000A2E43 /* CAActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAActivityIndicatorView.h; path = MediaPicker/CAActivityIndicatorView.h; sourceTree = "<group>"; };
+		FDEBE8DC1E092FCE000A2E43 /* CAActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAActivityIndicatorView.m; path = MediaPicker/CAActivityIndicatorView.m; sourceTree = "<group>"; };
+		FDEBE8DE1E09457E000A2E43 /* CAAlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAlbumTableViewCell.h; path = MediaPicker/CAAlbumTableViewCell.h; sourceTree = "<group>"; };
+		FDEBE8DF1E09457E000A2E43 /* CAAlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAAlbumTableViewCell.m; path = MediaPicker/CAAlbumTableViewCell.m; sourceTree = "<group>"; };
+		FDEBE8E01E09457E000A2E43 /* CAAlbumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CAAlbumTableViewCell.xib; path = MediaPicker/CAAlbumTableViewCell.xib; sourceTree = "<group>"; };
+		FDEBE8E31E0954BA000A2E43 /* UIImageView+Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Asset.h"; path = "MediaPicker/UIImageView+Asset.h"; sourceTree = "<group>"; };
+		FDEBE8E41E0954BA000A2E43 /* UIImageView+Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Asset.m"; path = "MediaPicker/UIImageView+Asset.m"; sourceTree = "<group>"; };
+		FDF998701DECA3FA00A5F04E /* CAMediaPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAMediaPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF998741DECA3FA00A5F04E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF998761DECA3FA00A5F04E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF998771DECA3FA00A5F04E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF998791DECA3FA00A5F04E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDF9987A1DECA3FA00A5F04E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDF9987D1DECA3FA00A5F04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF9987F1DECA3FA00A5F04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF998821DECA3FA00A5F04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF998841DECA3FA00A5F04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF998891DECA3FA00A5F04E /* CAMediaPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAMediaPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF9988D1DECA3FA00A5F04E /* CAMediaPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMediaPickerTests.m; sourceTree = "<group>"; };
+		FDF9988F1DECA3FA00A5F04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF998941DECA3FA00A5F04E /* CAMediaPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAMediaPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF998981DECA3FA00A5F04E /* CAMediaPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAMediaPickerUITests.m; sourceTree = "<group>"; };
+		FDF9989A1DECA3FA00A5F04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF998AF1DECA7FC00A5F04E /* CAAlbumPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAlbumPickerViewController.h; path = MediaPicker/CAAlbumPickerViewController.h; sourceTree = "<group>"; };
+		FDF998B01DECA7FC00A5F04E /* CAAlbumPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAAlbumPickerViewController.m; path = MediaPicker/CAAlbumPickerViewController.m; sourceTree = "<group>"; };
+		FDF998B11DECA7FC00A5F04E /* CAAlbumPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CAAlbumPickerViewController.xib; path = MediaPicker/CAAlbumPickerViewController.xib; sourceTree = "<group>"; };
+		FDF998B51DECAEDB00A5F04E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		FDFFB6D51E0829410008ECF3 /* CAMediaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAMediaManager.h; path = MediaPicker/CAMediaManager.h; sourceTree = "<group>"; };
+		FDFFB6D61E0829410008ECF3 /* CAMediaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAMediaManager.m; path = MediaPicker/CAMediaManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF9986D1DECA3FA00A5F04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF998B61DECAEDB00A5F04E /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF998861DECA3FA00A5F04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF998911DECA3FA00A5F04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD96A5A91E08037D00F735D4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FD96A5AA1E08039B00F735D4 /* check_red@3x.png */,
+				FD96A5AB1E08039B00F735D4 /* check_red@2x.png */,
+				FD96A5AC1E08039B00F735D4 /* check_red.png */,
+				FD45CD931E12E36500BC4D64 /* play_button.png */,
+				FD45CD941E12E36500BC4D64 /* video_icon@3x.png */,
+				FD45CD951E12E36500BC4D64 /* video_icon@2x.png */,
+				FD45CD961E12E36500BC4D64 /* video_icon.png */,
+				FD45CD971E12E36500BC4D64 /* image_icon@3x.png */,
+				FD45CD981E12E36500BC4D64 /* image_icon@2x.png */,
+				FD45CD991E12E36500BC4D64 /* image_icon.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		FDF998671DECA3FA00A5F04E = {
+			isa = PBXGroup;
+			children = (
+				FDF998721DECA3FA00A5F04E /* CAMediaPicker */,
+				FDF9988C1DECA3FA00A5F04E /* CAMediaPickerTests */,
+				FDF998971DECA3FA00A5F04E /* CAMediaPickerUITests */,
+				FDF998711DECA3FA00A5F04E /* Products */,
+				FDF998B41DECAEDB00A5F04E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF998711DECA3FA00A5F04E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF998701DECA3FA00A5F04E /* CAMediaPicker.app */,
+				FDF998891DECA3FA00A5F04E /* CAMediaPickerTests.xctest */,
+				FDF998941DECA3FA00A5F04E /* CAMediaPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF998721DECA3FA00A5F04E /* CAMediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FDF998A61DECA44C00A5F04E /* MediaPickerController */,
+				FDF998761DECA3FA00A5F04E /* AppDelegate.h */,
+				FDF998771DECA3FA00A5F04E /* AppDelegate.m */,
+				FDF998791DECA3FA00A5F04E /* ViewController.h */,
+				FDF9987A1DECA3FA00A5F04E /* ViewController.m */,
+				FDF9987C1DECA3FA00A5F04E /* Main.storyboard */,
+				FD45CD8E1E12814300BC4D64 /* ImageViewController.h */,
+				FD45CD8F1E12814300BC4D64 /* ImageViewController.m */,
+				FD45CD901E12814300BC4D64 /* ImageViewController.xib */,
+				FDF9987F1DECA3FA00A5F04E /* Assets.xcassets */,
+				FDF998811DECA3FA00A5F04E /* LaunchScreen.storyboard */,
+				FDF998841DECA3FA00A5F04E /* Info.plist */,
+				FDF998731DECA3FA00A5F04E /* Supporting Files */,
+			);
+			path = CAMediaPicker;
+			sourceTree = "<group>";
+		};
+		FDF998731DECA3FA00A5F04E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF998741DECA3FA00A5F04E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDF9988C1DECA3FA00A5F04E /* CAMediaPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF9988D1DECA3FA00A5F04E /* CAMediaPickerTests.m */,
+				FDF9988F1DECA3FA00A5F04E /* Info.plist */,
+			);
+			path = CAMediaPickerTests;
+			sourceTree = "<group>";
+		};
+		FDF998971DECA3FA00A5F04E /* CAMediaPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF998981DECA3FA00A5F04E /* CAMediaPickerUITests.m */,
+				FDF9989A1DECA3FA00A5F04E /* Info.plist */,
+			);
+			path = CAMediaPickerUITests;
+			sourceTree = "<group>";
+		};
+		FDF998A61DECA44C00A5F04E /* MediaPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				FD96A5A91E08037D00F735D4 /* Resource */,
+				FD96A59E1E07CD6D00F735D4 /* MediaPickerDelegate.h */,
+				FDFFB6D51E0829410008ECF3 /* CAMediaManager.h */,
+				FDFFB6D61E0829410008ECF3 /* CAMediaManager.m */,
+				FDF998AF1DECA7FC00A5F04E /* CAAlbumPickerViewController.h */,
+				FDF998B01DECA7FC00A5F04E /* CAAlbumPickerViewController.m */,
+				FDF998B11DECA7FC00A5F04E /* CAAlbumPickerViewController.xib */,
+				FDEBE8DE1E09457E000A2E43 /* CAAlbumTableViewCell.h */,
+				FDEBE8DF1E09457E000A2E43 /* CAAlbumTableViewCell.m */,
+				FDEBE8E01E09457E000A2E43 /* CAAlbumTableViewCell.xib */,
+				FD96A59F1E07D58A00F735D4 /* CAImagePickerController.h */,
+				FD96A5A01E07D58A00F735D4 /* CAImagePickerController.m */,
+				FD96A5A11E07D58A00F735D4 /* CAImagePickerController.xib */,
+				FD96A5A61E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.h */,
+				FD96A5A51E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.m */,
+				FD96A5A41E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.xib */,
+				FD96A5B01E0809F300F735D4 /* CAVideoPickerController.h */,
+				FD96A5B11E0809F300F735D4 /* CAVideoPickerController.m */,
+				FD96A5B21E0809F300F735D4 /* CAVideoPickerController.xib */,
+				FDEBE8E31E0954BA000A2E43 /* UIImageView+Asset.h */,
+				FDEBE8E41E0954BA000A2E43 /* UIImageView+Asset.m */,
+				FDEBE8DB1E092FCE000A2E43 /* CAActivityIndicatorView.h */,
+				FDEBE8DC1E092FCE000A2E43 /* CAActivityIndicatorView.m */,
+			);
+			name = MediaPickerController;
+			sourceTree = "<group>";
+		};
+		FDF998B41DECAEDB00A5F04E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF998B51DECAEDB00A5F04E /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF9986F1DECA3FA00A5F04E /* CAMediaPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF9989D1DECA3FA00A5F04E /* Build configuration list for PBXNativeTarget "CAMediaPicker" */;
+			buildPhases = (
+				FDF9986C1DECA3FA00A5F04E /* Sources */,
+				FDF9986D1DECA3FA00A5F04E /* Frameworks */,
+				FDF9986E1DECA3FA00A5F04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAMediaPicker;
+			productName = CAMediaPicker;
+			productReference = FDF998701DECA3FA00A5F04E /* CAMediaPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF998881DECA3FA00A5F04E /* CAMediaPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF998A01DECA3FA00A5F04E /* Build configuration list for PBXNativeTarget "CAMediaPickerTests" */;
+			buildPhases = (
+				FDF998851DECA3FA00A5F04E /* Sources */,
+				FDF998861DECA3FA00A5F04E /* Frameworks */,
+				FDF998871DECA3FA00A5F04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF9988B1DECA3FA00A5F04E /* PBXTargetDependency */,
+			);
+			name = CAMediaPickerTests;
+			productName = CAMediaPickerTests;
+			productReference = FDF998891DECA3FA00A5F04E /* CAMediaPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDF998931DECA3FA00A5F04E /* CAMediaPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF998A31DECA3FA00A5F04E /* Build configuration list for PBXNativeTarget "CAMediaPickerUITests" */;
+			buildPhases = (
+				FDF998901DECA3FA00A5F04E /* Sources */,
+				FDF998911DECA3FA00A5F04E /* Frameworks */,
+				FDF998921DECA3FA00A5F04E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF998961DECA3FA00A5F04E /* PBXTargetDependency */,
+			);
+			name = CAMediaPickerUITests;
+			productName = CAMediaPickerUITests;
+			productReference = FDF998941DECA3FA00A5F04E /* CAMediaPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF998681DECA3FA00A5F04E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Headerlabs;
+				TargetAttributes = {
+					FDF9986F1DECA3FA00A5F04E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z2KR3KZ28T;
+						ProvisioningStyle = Automatic;
+					};
+					FDF998881DECA3FA00A5F04E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDF9986F1DECA3FA00A5F04E;
+					};
+					FDF998931DECA3FA00A5F04E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDF9986F1DECA3FA00A5F04E;
+					};
+				};
+			};
+			buildConfigurationList = FDF9986B1DECA3FA00A5F04E /* Build configuration list for PBXProject "CAMediaPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF998671DECA3FA00A5F04E;
+			productRefGroup = FDF998711DECA3FA00A5F04E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF9986F1DECA3FA00A5F04E /* CAMediaPicker */,
+				FDF998881DECA3FA00A5F04E /* CAMediaPickerTests */,
+				FDF998931DECA3FA00A5F04E /* CAMediaPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF9986E1DECA3FA00A5F04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD45CD9D1E12E36500BC4D64 /* video_icon.png in Resources */,
+				FD45CD9C1E12E36500BC4D64 /* video_icon@2x.png in Resources */,
+				FD45CD9B1E12E36500BC4D64 /* video_icon@3x.png in Resources */,
+				FD45CD9A1E12E36500BC4D64 /* play_button.png in Resources */,
+				FD96A5AF1E08039B00F735D4 /* check_red.png in Resources */,
+				FDF998831DECA3FA00A5F04E /* LaunchScreen.storyboard in Resources */,
+				FDF998801DECA3FA00A5F04E /* Assets.xcassets in Resources */,
+				FDF998B31DECA7FC00A5F04E /* CAAlbumPickerViewController.xib in Resources */,
+				FD96A5A31E07D58A00F735D4 /* CAImagePickerController.xib in Resources */,
+				FD45CDA01E12E36500BC4D64 /* image_icon.png in Resources */,
+				FD96A5B41E0809F300F735D4 /* CAVideoPickerController.xib in Resources */,
+				FDEBE8E21E09457E000A2E43 /* CAAlbumTableViewCell.xib in Resources */,
+				FD45CD9F1E12E36500BC4D64 /* image_icon@2x.png in Resources */,
+				FD45CD921E12814300BC4D64 /* ImageViewController.xib in Resources */,
+				FDF9987E1DECA3FA00A5F04E /* Main.storyboard in Resources */,
+				FD96A5AE1E08039B00F735D4 /* check_red@2x.png in Resources */,
+				FD45CD9E1E12E36500BC4D64 /* image_icon@3x.png in Resources */,
+				FD96A5A71E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.xib in Resources */,
+				FD96A5AD1E08039B00F735D4 /* check_red@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF998871DECA3FA00A5F04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF998921DECA3FA00A5F04E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF9986C1DECA3FA00A5F04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF9987B1DECA3FA00A5F04E /* ViewController.m in Sources */,
+				FDFFB6D71E0829410008ECF3 /* CAMediaManager.m in Sources */,
+				FDEBE8E11E09457E000A2E43 /* CAAlbumTableViewCell.m in Sources */,
+				FD96A5B31E0809F300F735D4 /* CAVideoPickerController.m in Sources */,
+				FDEBE8E51E0954BA000A2E43 /* UIImageView+Asset.m in Sources */,
+				FD45CD911E12814300BC4D64 /* ImageViewController.m in Sources */,
+				FDF998B21DECA7FC00A5F04E /* CAAlbumPickerViewController.m in Sources */,
+				FDEBE8DD1E092FCE000A2E43 /* CAActivityIndicatorView.m in Sources */,
+				FD96A5A81E07D67B00F735D4 /* ImageThumbnailCollectionViewCell.m in Sources */,
+				FDF998781DECA3FA00A5F04E /* AppDelegate.m in Sources */,
+				FD96A5A21E07D58A00F735D4 /* CAImagePickerController.m in Sources */,
+				FDF998751DECA3FA00A5F04E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF998851DECA3FA00A5F04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF9988E1DECA3FA00A5F04E /* CAMediaPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF998901DECA3FA00A5F04E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF998991DECA3FA00A5F04E /* CAMediaPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF9988B1DECA3FA00A5F04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF9986F1DECA3FA00A5F04E /* CAMediaPicker */;
+			targetProxy = FDF9988A1DECA3FA00A5F04E /* PBXContainerItemProxy */;
+		};
+		FDF998961DECA3FA00A5F04E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF9986F1DECA3FA00A5F04E /* CAMediaPicker */;
+			targetProxy = FDF998951DECA3FA00A5F04E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF9987C1DECA3FA00A5F04E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF9987D1DECA3FA00A5F04E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF998811DECA3FA00A5F04E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF998821DECA3FA00A5F04E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF9989B1DECA3FA00A5F04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF9989C1DECA3FA00A5F04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF9989E1DECA3FA00A5F04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z2KR3KZ28T;
+				INFOPLIST_FILE = CAMediaPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs..CAMediaPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDF9989F1DECA3FA00A5F04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z2KR3KZ28T;
+				INFOPLIST_FILE = CAMediaPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs..CAMediaPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDF998A11DECA3FA00A5F04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAMediaPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs..CAMediaPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAMediaPicker.app/CAMediaPicker";
+			};
+			name = Debug;
+		};
+		FDF998A21DECA3FA00A5F04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAMediaPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs..CAMediaPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAMediaPicker.app/CAMediaPicker";
+			};
+			name = Release;
+		};
+		FDF998A41DECA3FA00A5F04E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAMediaPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs..CAMediaPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAMediaPicker;
+			};
+			name = Debug;
+		};
+		FDF998A51DECA3FA00A5F04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAMediaPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.headerlabs..CAMediaPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAMediaPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF9986B1DECA3FA00A5F04E /* Build configuration list for PBXProject "CAMediaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF9989B1DECA3FA00A5F04E /* Debug */,
+				FDF9989C1DECA3FA00A5F04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF9989D1DECA3FA00A5F04E /* Build configuration list for PBXNativeTarget "CAMediaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF9989E1DECA3FA00A5F04E /* Debug */,
+				FDF9989F1DECA3FA00A5F04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF998A01DECA3FA00A5F04E /* Build configuration list for PBXNativeTarget "CAMediaPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF998A11DECA3FA00A5F04E /* Debug */,
+				FDF998A21DECA3FA00A5F04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF998A31DECA3FA00A5F04E /* Build configuration list for PBXNativeTarget "CAMediaPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF998A41DECA3FA00A5F04E /* Debug */,
+				FDF998A51DECA3FA00A5F04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF998681DECA3FA00A5F04E /* Project object */;
+}
