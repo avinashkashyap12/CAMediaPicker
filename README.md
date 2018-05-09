@@ -105,4 +105,4 @@ Delegate methos
 
 
 
-For details Check out : http://iavinashkashyap.blogspot.in/2016/07/custom-input-view-for-system-keyboard_16.html
+For details Check out : http://iavinashkashyap.blogspot.in/2016/12/camediapicker.html
